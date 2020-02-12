@@ -309,10 +309,12 @@ body {
   .menu-button-active:before {
     transform: rotate(45deg);
     margin-top: 0;
+    z-index: 2;
   }
   .menu-button-active:after {
     transform: rotate(-45deg);
     margin-top: 0;
+    z-index: 2;
   }
   .header {
     display: none;
@@ -326,6 +328,7 @@ body {
   }
   .header-active {
     display: flex;
+    z-index: 1;
   }
   .logo {
     margin-bottom: 25px;
